@@ -1,0 +1,12 @@
+{
+  "name": "hasinternet",
+  "version": "0.0.0",
+  "description": "checks for internet, works in browser and node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "jllord maxogden",
+  "license": "BSD"
+}
