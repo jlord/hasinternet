@@ -4,12 +4,12 @@ Node.js module for checking if user is connected to the internet.
 
 **To Use**
 
-Call the function `hasInternet` and give it a callback function, which takes in an error and a boolean for the true/false that will return for the internet's status. IS THERE INTERNET!?!
+Call the function `hasInternet`, give it a callback function and an optional URL. The callback takes in an error and a boolean for the true/false that will return for the internet's status. IS THERE INTERNET!?!
 
 ```javascript
 var hasInternet = require('hasinternet')
 
-hasInternet(answer)
+hasInternet(answer,'github.com')
 
 function answer(err, internet) {
   // there is either an error and false for internet
